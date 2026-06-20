@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.AWS" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorAppBackground">#2E4F3D</item>
+        <item name="statChipDrawable">@drawable/stat_chip</item>
+    </style>
+
+    <style name="Theme.AWS.Dark" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorAppBackground">#1A1A1A</item>
+        <item name="statChipDrawable">@drawable/stat_chip_dark</item>
+    </style>
+
+</resources>

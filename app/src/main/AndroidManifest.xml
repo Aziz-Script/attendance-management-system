@@ -1,0 +1,58 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aws">
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AWS"
+        android:icon="@drawable/fcaitr">
+
+        <service
+            android:name=".AttendanceTimerService"
+            android:foregroundServiceType="dataSync" />
+
+
+
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+
+        <activity android:name=".StudentHomeActivity" />
+        <activity android:name=".InstructorHomeActivity" />
+        <activity android:name=".SettingsActivity"/>
+        <activity android:name=".CoursesActivity"/>
+        <activity android:name=".StudentCourseDetailActivity"/>
+        <activity android:name=".StudentAttendanceActivity" />
+        <activity android:name=".activities.InstructorClassesActivity" />
+        <activity android:name=".MyClassesDetailActivity" />
+        <activity android:name=".InstructorAttendanceActivity" />
+        <activity android:name=".InstructorHistoryActivity" />
+        <activity android:name=".InstructorSessionsActivity" />
+        <activity android:name=".StudentHistoryActivity" />
+
+
+
+
+
+
+
+
+
+    </application>
+
+</manifest>

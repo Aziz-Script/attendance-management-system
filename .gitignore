@@ -1,0 +1,31 @@
+# Built application files
+*.apk
+*.aar
+*.ap_
+*.aab
+*.dex
+*.class
+
+# Gradle
+.gradle/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Android Studio / IntelliJ
+*.iml
+.idea/
+local.properties
+
+# Secrets — never commit
+app/google-services.json
+**/src/main/assets/users.json
+*.jks
+*.keystore
+keystore.properties
+
+# OS / misc
+.DS_Store
+Thumbs.db
+*.log

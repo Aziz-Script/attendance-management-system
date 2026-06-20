@@ -1,0 +1,135 @@
+<resources>
+    <string name="app_name">AWS</string>
+    <string name="abdo">abdo</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="course_code">COURSE CODE</string>
+    <string name="log_in">LOG IN</string>
+    <string name="welcome">Welcome</string>
+    <string name="name">Name:</string>
+    <string name="id">ID:</string>
+    <string name="gpa">GPA:</string>
+    <string name="department">Department:</string>
+    <string name="courses">COURSES</string>
+    <string name="settings">SETTINGS</string>
+    <string name="notifications">Notifications</string>
+    <string name="language">Language</string>
+    <string name="theme">Theme</string>
+    <string name="theme_green">Green</string>
+    <string name="theme_dark">Dark</string>
+    <string name="about_app">About App</string>
+    <string name="log_out">Log Out</string>
+    <string name="label_name">Name</string>
+    <string name="label_id">ID</string>
+    <string name="label_gpa">GPA</string>
+    <string name="label_department">Department</string>
+
+    <!-- Login screen -->
+    <string name="app_subtitle">Attendance Management System</string>
+    <string name="sign_in_subtitle">Sign in with your university email or student ID</string>
+    <string name="label_email_or_id">Email or Student ID</string>
+    <string name="hint_email_or_id">e.g. 2200012345 or you@stu.kau.edu.sa</string>
+    <string name="label_password">Password</string>
+    <string name="hint_password">Enter your password</string>
+    <string name="footer_university">King Abdulaziz University · v1.0</string>
+
+    <!-- Home screens -->
+    <string name="label_major">Major</string>
+    <string name="hint_tap_course">Tap a course to select it</string>
+    <string name="btn_mark_attendance">Mark Attendance</string>
+    <string name="btn_history">History</string>
+    <string name="label_my_classes">MY CLASSES</string>
+    <string name="hint_tap_class">Tap a class to select it</string>
+    <string name="btn_take_attendance">Take Attendance</string>
+
+    <!-- Status labels -->
+    <string name="label_present">Present</string>
+    <string name="label_late">Late</string>
+    <string name="label_absent">Absent</string>
+    <string name="label_total">Total</string>
+
+    <!-- Student history -->
+    <string name="title_attendance_history">Attendance History</string>
+    <string name="label_sessions">SESSIONS</string>
+    <string name="msg_no_records">No attendance records yet</string>
+    <string name="msg_no_records_sub">Your attendance will appear here\nonce sessions are recorded</string>
+
+    <!-- Instructor history -->
+    <string name="title_session_history">Session History</string>
+    <string name="label_students">STUDENTS</string>
+    <string name="msg_no_session">No session data yet</string>
+    <string name="msg_no_session_sub">Start a session to see\nstudent attendance here</string>
+
+    <!-- Mark attendance -->
+    <string name="title_mark_attendance">Mark Attendance</string>
+    <string name="label_enter_code">ENTER SESSION CODE</string>
+    <string name="btn_submit_attendance">Submit Attendance</string>
+    <string name="msg_submitting">Submitting…</string>
+
+    <!-- Take attendance -->
+    <string name="title_take_attendance">Take Attendance</string>
+    <string name="subtitle_share_code">Share this code with students</string>
+    <string name="label_attendance_code">ATTENDANCE CODE</string>
+    <string name="label_session_timer">SESSION TIMER</string>
+    <string name="text_no_timer">No timer selected</string>
+    <string name="btn_choose_duration">Choose Duration</string>
+    <string name="btn_generate_code">Generate Code</string>
+
+    <!-- Settings -->
+    <string name="label_preferences">PREFERENCES</string>
+    <string name="label_general">GENERAL</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_about_title">About AMS</string>
+    <string name="dialog_about_message">Attendance Management System (AMS)\nVersion 1.0\n\nAMS is a mobile attendance tracking system developed for King Abdulaziz University (KAU). It streamlines the attendance process by allowing instructors to generate timed session codes that students scan or enter in the app to mark their presence — eliminating paper-based roll calls and manual record keeping.\n\nKey features:\n• Timed session codes with automatic expiry\n• Automatic present / late / absent classification\n• Real-time attendance history for both students and instructors\n• Arabic and English language support\n\nFaculty of Computing &amp; Information Technology\nKing Abdulaziz University · Rabigh, Saudi Arabia</string>
+    <string name="dialog_close">Close</string>
+    <string name="dialog_logout_title">Log Out</string>
+    <string name="dialog_logout_message">Are you sure you want to log out?</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_confirm">Confirm</string>
+    <string name="dialog_cancel_session_title">Cancel Session?</string>
+    <string name="dialog_cancel_session_message">Students will no longer be able to submit attendance for this session.</string>
+    <string name="dialog_btn_cancel_session">Cancel Session</string>
+    <string name="dialog_btn_keep_session">Keep Session</string>
+
+    <!-- Toast messages -->
+    <string name="toast_no_student_id">No student ID found</string>
+    <string name="toast_no_section">No section selected</string>
+    <string name="toast_server_error">Server error</string>
+    <string name="toast_network_error">Network error</string>
+    <string name="toast_please_enter_code">Please enter the code</string>
+    <string name="toast_error_no_student_id">Error: No student ID found</string>
+    <string name="toast_error_no_section">Error: Missing section ID</string>
+    <string name="toast_marked_present">✓ Marked Present</string>
+    <string name="toast_marked_late">✓ Marked Late</string>
+    <string name="toast_already_marked">Already marked for this session</string>
+    <string name="toast_invalid_code">Invalid or expired code</string>
+    <string name="toast_missing_section">Missing section ID</string>
+    <string name="toast_failed_courses">Failed to load courses</string>
+    <string name="toast_failed_classes">Failed to load classes</string>
+    <string name="toast_session_started">Session started!</string>
+    <string name="toast_session_cancelled">Session cancelled</string>
+    <string name="toast_empty_response">Empty server response</string>
+    <string name="toast_no_code_returned">No code returned</string>
+    <string name="toast_unexpected_response">Unexpected server response</string>
+    <string name="toast_invalid_server_response">Invalid server response</string>
+    <string name="msg_starting">Starting…</string>
+    <string name="toast_welcome">Welcome %1$s</string>
+    <string name="toast_unknown_role">Unknown role: %1$s</string>
+
+    <!-- Notification strings -->
+    <string name="notif_channel_session_name">Attendance Sessions</string>
+    <string name="notif_channel_session_desc">Alerts when an attendance session is active for your course</string>
+    <string name="notif_channel_confirm_name">Attendance Confirmations</string>
+    <string name="notif_channel_confirm_desc">Confirms when your attendance has been recorded</string>
+    <string name="notif_session_title">📋 Attendance Session Active</string>
+    <string name="notif_session_text">%1$s (%2$s) — Code: %3$s</string>
+    <string name="notif_session_big_text">Your instructor has started an attendance session for %1$s.\n\nSession code: %2$s\n\nTap to mark your attendance now.</string>
+    <string name="notif_confirm_title">Attendance Recorded — %1$s</string>
+    <string name="notif_confirm_text">%1$s (%2$s)</string>
+    <string name="notif_confirm_big_text">Your attendance for %1$s has been recorded as %2$s.\n\nKeep this as your receipt.</string>
+    <string name="notif_status_present">Present ✓</string>
+    <string name="notif_status_late">Late ✓</string>
+    <string name="notif_status_recorded">Recorded ✓</string>
+
+</resources>

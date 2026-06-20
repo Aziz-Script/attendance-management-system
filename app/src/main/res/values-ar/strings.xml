@@ -1,0 +1,135 @@
+<resources>
+    <string name="app_name">AWS</string>
+    <string name="abdo">عبدو</string>
+    <string name="sign_in">تسجيل الدخول</string>
+    <string name="course_code">رمز المقرر</string>
+    <string name="log_in">دخول</string>
+    <string name="welcome">مرحبًا</string>
+    <string name="name">الاسم:</string>
+    <string name="id">الرقم الجامعي:</string>
+    <string name="gpa">المعدل:</string>
+    <string name="department">القسم:</string>
+    <string name="courses">المقررات</string>
+    <string name="settings">الإعدادات</string>
+    <string name="notifications">الإشعارات</string>
+    <string name="language">اللغة</string>
+    <string name="theme">المظهر</string>
+    <string name="theme_green">أخضر</string>
+    <string name="theme_dark">داكن</string>
+    <string name="about_app">عن التطبيق</string>
+    <string name="log_out">تسجيل الخروج</string>
+    <string name="label_name">الاسم</string>
+    <string name="label_id">الرقم الجامعي</string>
+    <string name="label_gpa">المعدل</string>
+    <string name="label_department">القسم</string>
+
+    <!-- Login screen -->
+    <string name="app_subtitle">نظام إدارة الحضور</string>
+    <string name="sign_in_subtitle">سجّل الدخول باستخدام بريدك الجامعي أو رقمك الجامعي</string>
+    <string name="label_email_or_id">البريد الإلكتروني أو الرقم الجامعي</string>
+    <string name="hint_email_or_id">مثال: 2200012345 أو you@stu.kau.edu.sa</string>
+    <string name="label_password">كلمة المرور</string>
+    <string name="hint_password">أدخل كلمة المرور</string>
+    <string name="footer_university">جامعة الملك عبدالعزيز · v1.0</string>
+
+    <!-- Home screens -->
+    <string name="label_major">التخصص</string>
+    <string name="hint_tap_course">اضغط على مقرر لتحديده</string>
+    <string name="btn_mark_attendance">تسجيل الحضور</string>
+    <string name="btn_history">السجل</string>
+    <string name="label_my_classes">مقرراتي</string>
+    <string name="hint_tap_class">اضغط على مقرر لتحديده</string>
+    <string name="btn_take_attendance">أخذ الحضور</string>
+
+    <!-- Status labels -->
+    <string name="label_present">حاضر</string>
+    <string name="label_late">متأخر</string>
+    <string name="label_absent">غائب</string>
+    <string name="label_total">المجموع</string>
+
+    <!-- Student history -->
+    <string name="title_attendance_history">سجل الحضور</string>
+    <string name="label_sessions">الجلسات</string>
+    <string name="msg_no_records">لا توجد سجلات حضور بعد</string>
+    <string name="msg_no_records_sub">سيظهر حضورك هنا\nبعد تسجيل الجلسات</string>
+
+    <!-- Instructor history -->
+    <string name="title_session_history">سجل الجلسات</string>
+    <string name="label_students">الطلاب</string>
+    <string name="msg_no_session">لا توجد بيانات جلسة بعد</string>
+    <string name="msg_no_session_sub">ابدأ جلسة لعرض\nحضور الطلاب هنا</string>
+
+    <!-- Mark attendance -->
+    <string name="title_mark_attendance">تسجيل الحضور</string>
+    <string name="label_enter_code">أدخل رمز الجلسة</string>
+    <string name="btn_submit_attendance">تأكيد الحضور</string>
+    <string name="msg_submitting">جارٍ الإرسال…</string>
+
+    <!-- Take attendance -->
+    <string name="title_take_attendance">أخذ الحضور</string>
+    <string name="subtitle_share_code">شارك هذا الرمز مع الطلاب</string>
+    <string name="label_attendance_code">رمز الحضور</string>
+    <string name="label_session_timer">مؤقت الجلسة</string>
+    <string name="text_no_timer">لم يتم اختيار مؤقت</string>
+    <string name="btn_choose_duration">اختر المدة</string>
+    <string name="btn_generate_code">توليد الرمز</string>
+
+    <!-- Settings -->
+    <string name="label_preferences">التفضيلات</string>
+    <string name="label_general">عام</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_about_title">عن التطبيق</string>
+    <string name="dialog_about_message">نظام إدارة الحضور (AMS)\nالإصدار 1.0\n\nهو نظام تتبع الحضور المحمول المطوّر لجامعة الملك عبدالعزيز (KAU). يُبسّط العملية من خلال السماح للمدرسين بإنشاء رموز جلسة محددة زمنياً يُدخلها الطلاب في التطبيق لتسجيل حضورهم.\n\nالميزات الرئيسية:\n• رموز جلسة بانتهاء صلاحية تلقائي\n• تصنيف تلقائي: حاضر / متأخر / غائب\n• سجل الحضور الفوري للطلاب والمدرسين\n• دعم اللغتين العربية والإنجليزية\n\nكلية الحاسبات وتقنية المعلومات\nجامعة الملك عبدالعزيز · رابغ، المملكة العربية السعودية</string>
+    <string name="dialog_close">إغلاق</string>
+    <string name="dialog_logout_title">تسجيل الخروج</string>
+    <string name="dialog_logout_message">هل أنت متأكد من تسجيل الخروج؟</string>
+    <string name="dialog_yes">نعم</string>
+    <string name="dialog_cancel">إلغاء</string>
+    <string name="dialog_confirm">تأكيد</string>
+    <string name="dialog_cancel_session_title">إلغاء الجلسة؟</string>
+    <string name="dialog_cancel_session_message">لن يتمكن الطلاب من تسجيل حضورهم لهذه الجلسة بعد الآن.</string>
+    <string name="dialog_btn_cancel_session">إلغاء الجلسة</string>
+    <string name="dialog_btn_keep_session">الاستمرار في الجلسة</string>
+
+    <!-- Toast messages -->
+    <string name="toast_no_student_id">لم يتم العثور على الرقم الجامعي</string>
+    <string name="toast_no_section">لم يتم تحديد قسم</string>
+    <string name="toast_server_error">خطأ في الخادم</string>
+    <string name="toast_network_error">خطأ في الشبكة</string>
+    <string name="toast_please_enter_code">الرجاء إدخال الرمز</string>
+    <string name="toast_error_no_student_id">خطأ: لم يتم العثور على الرقم الجامعي</string>
+    <string name="toast_error_no_section">خطأ: معرّف القسم مفقود</string>
+    <string name="toast_marked_present">✓ تم تسجيل الحضور</string>
+    <string name="toast_marked_late">✓ تم تسجيل التأخر</string>
+    <string name="toast_already_marked">تم تسجيل حضورك مسبقاً لهذه الجلسة</string>
+    <string name="toast_invalid_code">الرمز غير صالح أو منتهي الصلاحية</string>
+    <string name="toast_missing_section">معرّف القسم مفقود</string>
+    <string name="toast_failed_courses">فشل تحميل المقررات</string>
+    <string name="toast_failed_classes">فشل تحميل المقررات</string>
+    <string name="toast_session_started">تم بدء الجلسة!</string>
+    <string name="toast_session_cancelled">تم إلغاء الجلسة</string>
+    <string name="toast_empty_response">استجابة فارغة من الخادم</string>
+    <string name="toast_no_code_returned">لم يتم إرجاع رمز</string>
+    <string name="toast_unexpected_response">استجابة غير متوقعة من الخادم</string>
+    <string name="toast_invalid_server_response">استجابة خادم غير صالحة</string>
+    <string name="msg_starting">جارٍ البدء…</string>
+    <string name="toast_welcome">مرحباً %1$s</string>
+    <string name="toast_unknown_role">دور غير معروف: %1$s</string>
+
+    <!-- Notification strings -->
+    <string name="notif_channel_session_name">جلسات الحضور</string>
+    <string name="notif_channel_session_desc">تنبيهات عند بدء جلسة حضور لمقررك</string>
+    <string name="notif_channel_confirm_name">تأكيدات الحضور</string>
+    <string name="notif_channel_confirm_desc">تأكيد تسجيل حضورك</string>
+    <string name="notif_session_title">📋 جلسة حضور نشطة</string>
+    <string name="notif_session_text">%1$s (%2$s) — الرمز: %3$s</string>
+    <string name="notif_session_big_text">بدأ المدرس جلسة حضور لمقرر %1$s.\n\nرمز الجلسة: %2$s\n\nاضغط لتسجيل حضورك الآن.</string>
+    <string name="notif_confirm_title">تم تسجيل الحضور — %1$s</string>
+    <string name="notif_confirm_text">%1$s (%2$s)</string>
+    <string name="notif_confirm_big_text">تم تسجيل حضورك لمقرر %1$s كـ %2$s.\n\nاحتفظ بهذا كإيصالك.</string>
+    <string name="notif_status_present">حاضر ✓</string>
+    <string name="notif_status_late">متأخر ✓</string>
+    <string name="notif_status_recorded">مسجّل ✓</string>
+
+</resources>
