@@ -109,8 +109,6 @@ All timestamps are stored in **Asia/Riyadh** time for consistency.
 
 ## 📄 Project Documents
 
-- [Final Report (PDF)](docs/AMS_Final_Report.pdf)
-- [Presentation (PPTX)](docs/AMS_Presentation.pptx)
 - [Technical Guide (PPTX)](docs/AMS_Technical_Guide.pptx)
 
 ---
@@ -127,7 +125,10 @@ Graduation Project — Computer Science, KAU / FCITR (2025–2026)
 
 ---
 
+## 📌 Using This Project
+
+If you'd like to use or build on the idea behind this project, please notify me first — you can reach me through GitHub [@Aziz-Script] or by opening an issue. Thanks for respecting the work that went into it. 🙏
+
 ## 📝 Note
 
-This repository is an academic graduation project. The bundled demo accounts and the
-unused Firebase configuration have been removed from version control.
+This repository is an academic graduation project.
