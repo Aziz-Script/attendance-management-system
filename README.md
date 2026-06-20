@@ -127,7 +127,7 @@ Graduation Project — Computer Science, KAU / FCITR (2025–2026)
 
 ## 📌 Using This Project
 
-If you'd like to use or build on the idea behind this project, please notify me first — you can reach me through GitHub [@Aziz-Script] or by opening an issue. Thanks for respecting the work that went into it. 🙏
+If you'd like to use or build on the idea behind this project, please notify me first — you can reach me through GitHub[@Aziz-Script](https://github.com/Aziz-Script)or by opening an issue. Thanks for respecting the work that went into it. 🙏
 
 ## 📝 Note
 
